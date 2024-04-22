@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 228, 225);
+    font-family: "Kaisei Tokumin", serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2.2fr 0.4fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+.h2cuotas{
+    text-align: center;
+    font-size: x-small;
+    background-color: grey;
+    color: rgb(228, 228, 225);
+    height: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.h2orden{
+    text-align: center;
+    font-size: x-small;
+    color: black;
+    height: 10px;
+    padding: 10px;
+}
+.ulinicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.treslineas{
+    width: 2vw;
+    height: auto;
+}
+.logomarca{
+   width: 12vw;
+   height: auto;
+}
+.persona{
+    width: 2vw;
+    height: auto;
+    position: absolute;
+    right: 200px;
+}
+.bolsa{
+    width: 2vw;
+    height: auto;
+}
+.fondoespacial{
+    width: 100%;
+    background-image: url(../assents/img/2banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.h1a{ 
+    text-align: center;
+    line-height: 150px;
+}
+.h1faq{
+    text-align: center;
+}
+.faq{
+    padding: 10px;
+}
+.h2pedido{
+    text-align: center;
+}
+.clothes{
+    width: 23.6vw;
+    margin: 1vh;
+}
+.divv{
+    text-align: center;
+}
+.divfollow{
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logomarcafooter{
+    width: 12vw;
+   height: auto;
+}
+.menu{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    border: 2px;
+    padding: 20px;
+}
+.diva{
+    text-align: center;
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+}
+.ula{
+    text-align: right;
+    font-size: 15px;
+    border: 2px;
+    padding: 20px;
+}
+.redes2{
+    width: 40px;
+    height: auto;
+}
+@media screen and (max-width:320){
+    .fondoespacial{
+        width: 100%;
+        background-image: url(../assents/img/2banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:320){
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (max-width:320){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.4fr 2.2fr 0.4fr;
+        gap: 0px 0px;
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+    }
+}
