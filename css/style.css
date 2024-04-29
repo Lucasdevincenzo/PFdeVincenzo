@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(228, 228, 225);
+    background-color: #e4e4e1;
     font-family: "Kaisei Tokumin", serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -24,21 +24,13 @@ main{
 footer{
     grid-area: footer;
 }
-.h2cuotas{
+.pcuotas{
     text-align: center;
     font-size: x-small;
-    background-color: grey;
+    background-color: #808080;
     color: rgb(228, 228, 225);
-    height: 15px;
     padding: 15px;
     margin-top: 20px;
-}
-.h2orden{
-    text-align: center;
-    font-size: x-small;
-    color: black;
-    height: 10px;
-    padding: 10px;
 }
 .ulinicio{
     display: flex;
@@ -55,12 +47,12 @@ footer{
    height: auto;
 }
 .persona{
+    display: flex;
     width: 2vw;
     height: auto;
-    position: absolute;
-    right: 200px;
 }
 .bolsa{
+    display: flex;
     width: 2vw;
     height: auto;
 }
@@ -101,6 +93,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: grey;
 }
 .logomarcafooter{
     width: 12vw;
@@ -113,7 +106,11 @@ footer{
     border: 2px;
     padding: 20px;
 }
-.diva{
+.divcont{
+    text-align: center;
+    font-size: 15px;
+}
+.divecon{
     text-align: center;
     font-size: 15px;
 }
@@ -121,7 +118,7 @@ ul{
     list-style-type: none;
 }
 .ula{
-    text-align: right;
+    text-align: center;
     font-size: 15px;
     border: 2px;
     padding: 20px;

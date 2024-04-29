@@ -3,92 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./fotos/logomarca2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logomarca2.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>SHOP ALL</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body id="arriba">
-    <header id="arriba"> 
-        <h2 class="h2cuotas"> 3 CUOTAS SIN INTERES - 10% OFF TRANSFERENCIAS </h2>
-        <h2 class="h2orden"> Segui tu orden <a href="./followyourorder.html">aqui</a></h2>    
-        <nav class="navbar">
-          <div class="dropdown">
-            <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="treslineas" src="../assents/img/treslineas.png" alt="">
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../index.html">Home</a></li>
-              <li><a class="dropdown-item" href="./shopall.html">Shop all</a></li>
-              <li><a class="dropdown-item" href="./stores.html">Stores</a></li>
-              <li><a class="dropdown-item" href="./faq.html">FAQ</a></li>
-            </ul>
-          </div>
-          <ul class="ulinicio">
-            <li><a href="../index.html"><img class="logomarca" src="../assents/img/logomarca.png" alt="logo marca"></a></li>
-            <li><a href="./login.html"><img class="persona" src="../assents/img/iconodepersona.png" alt="icono de persona"></a></li>
+<body>
+  <header id="arriba"> 
+    <p class="pcuotas"> 3 CUOTAS SIN INTERES - 10% OFF TRANSFERENCIAS </p>
+    <nav class="navbar navbar-expand-lg bg-primary-#e4e4e1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logomarca" src="../assets/img/logomarca.png" alt="logo marca"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/shopall.html">Shop All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/checkin.html"><img class="persona" src="../assets/img/iconodepersona.png" alt="icono de persona">Mi cuenta</a>
+            </li>
           </ul>
-          <div class="container-end">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-              <span><img class="bolsa" src="../assents/img/bolsa.png" alt="bolsa"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        </div>
+      </div>
+            <button class="btn btn-primary-#e4e4e1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Carrito de compras</h5>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">El carrito de compras esta vacio</a>
-                  </li>
-                </ul>
+                ...
               </div>
             </div>
-          </div>
-        </nav>
-    </header>
+    </nav>
+</header>
     <main>
         <h1 class="h1a" >Productos</h1>
-        <img class="clothes" src="../assents/img/gorrabeige.webp" alt="">
-        <img class="clothes" src="../assents/img/gorragris.webp" alt="">
-        <img class="clothes" src="../assents/img/remerablanca.webp" alt="">
-        <img class="clothes" src="../assents/img/remeranegra.webp" alt="">
-        <img class="clothes" src="../assents/img/camisanegra.jpg" alt="">
-        <img class="clothes" src="../assents/img/cargoverde.jpg" alt="">
-        <img class="clothes" src="../assents/img/cargonegro.jpg" alt="">
-        <img class="clothes" src="../assents/img/ziphoodie.jpg" alt="">
-        <img class="clothes" src="../assents/img/buzonegro.jpg" alt="">
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/camisanegra.jpg" class="card-img-top" alt="camisa negra">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$30.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $10.000</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/ziphoodie.jpg" class="card-img-top" alt="zip hoddie">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$45.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $15.000</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/cargonegro.jpg" class="card-img-top" alt="cargo negro">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$65.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $21.666</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/cargoverde.jpg" class="card-img-top" alt="cargo verde">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$65.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $21.666</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/buzonegro.jpg" class="card-img-top" alt="buzo negro">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$40.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $13.333</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/remerablanca.webp" class="card-img-top" alt="remera blanca">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$20.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $6.666</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/remeranegra.webp" class="card-img-top" alt="remera negra">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$20.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $6.666</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/gorrabeige.webp" class="card-img-top" alt="gorra biege">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$10.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $3.333</li>
+          </ul>
+        </div> 
+        <div class="card" style="width: 18rem; display: inline-block;">
+          <img src="../assets/img/gorragris.webp" class="card-img-top" alt="gorra gris">
+          <div class="card-body">
+            <h5 class="card-title">Technical jacket shirt</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$10.000</li>
+            <li class="list-group-item">3 cuotas sin interes de $3.333</li>
+          </ul>
+        </div> 
     </main>
     <footer>
-        <div>
-            <a href="#arriba"><img  class="logomarcafooter" src="../assents/img/logomarca.png" alt="logo marca"></a>
-        </div>
-        <div class="menu">
-            <h3>Menu</h3>
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../pages/shopall.html">SHOP ALL</a></li>
-                <li><a href="../pages/stores.html">STORES</a></li>
-                <li><a href="../pages/faq.html">FAQ</a></li>
-                <li><a href="../pages/login.html">INICIA SESION</a></li>
-            </ul>
-        </div>
-        <div class="diva" >
-            <p>Contactanos</p>
-            <p>2966703889</p>
-            <p>lucasmartindevincenzo@gmail.com</p>  
-        </div>
-        <div>
-            <ul class="ula"> Redes
-            <li class="lia"><a class="redes" href="https://instagram.com/lucas_devincenzo/" target="_blank"><img class="redes2" src="../assents/img/instagramlogo.png" alt="logo instagram"></a></li>
-            <li class="lia"><a class="redes" href="https://facebook.com" target="_blank"><img class="redes2" src="../assents/img/facebooklogo.png" alt="logo facebook"></a></li>
-            <li class="lia"><a class="redes" href="https://tiktok.com" target="_blank"><img class="redes2" src="../assents/img/tiktoklogo.png" alt="logo tik tok"></a></li>
-            </ul>
-        </div>
-    </footer>
+      <div>
+          <a href="#arriba"><img  class="logomarcafooter" src="../assets/img/logomarca3.png" alt="logo marca"></a>
+      </div>
+      <div class="menu">
+          <h3>Menu</h3>
+          <ul>
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="../pages/shopall.html">SHOP ALL</a></li>
+              <li><a href="../pages/faq.html">FAQ</a></li>
+              <li><a href="../pages/login.html">INICIA SESION</a></li>
+          </ul>
+      </div>
+      <div class="divcont" >
+          <h3>Contactanos</h3>
+          <p>2966703889</p>
+          <p>lucasmartindevincenzo@gmail.com</p> 
+      </div>
+      <div class="divencon">
+        <h3>Encontranos en</h3>
+        <p>Cordoba, Avenida Duarte Quiros 1333</p>
+        <p>Buenos Aires, El Salvador 4577</p>
+      </div>
+      <div>
+        <h3>Redes</h3>
+          <ul class="ula">
+          <li><a class="redes" href="https://instagram.com/lucas_devincenzo/" target="_blank"><img class="redes2" src="../assets/img/instagramlogo.png" alt="logo instagram"></a></li>
+          <li><a class="redes" href="https://facebook.com" target="_blank"><img class="redes2" src="../assets/img/facebooklogo.png" alt="logo facebook"></a></li>
+          <li><a class="redes" href="https://tiktok.com" target="_blank"><img class="redes2" src="../assets/img/tiktoklogo.png" alt="logo tik tok"></a></li>
+          </ul>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
