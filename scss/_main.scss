@@ -1,0 +1,28 @@
+main{
+    .banner{
+        width: 100%;
+        background-image: url(../assets/img/2banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .h1a{
+        @include center;
+        line-height: 150px;
+    }
+    .h1faq{
+        @include center;
+    }
+    .faq{
+        padding: 10px;
+    }
+    .imgfaq{
+        width: 300px;
+    }
+    .clothes{
+        width: 23.6;
+        margin: 1vh;
+    }
+    .divmain{
+        @include center;
+    }
+}

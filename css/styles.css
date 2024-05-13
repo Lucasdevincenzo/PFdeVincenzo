@@ -1,7 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -9,12 +8,13 @@ body {
   font-family: "Kaisei Tokumin", serif;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.pcuotas {
+header .pcuotas {
   text-align: center;
   font-size: x-small;
   background-color: #808080;
@@ -22,83 +22,61 @@ a {
   padding: 15px;
   margin-top: 20px;
 }
-
-.ulinicio {
+header .treslineas {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.treslineas {
   width: 2vw;
   height: auto;
 }
-
-.logomarca {
+header .logomarca {
   width: 12vw;
   height: auto;
 }
-
-.persona {
+header .persona {
+  display: flex;
+  width: 2vw;
+  height: auto;
+}
+header .bolsa {
   display: flex;
   width: 2vw;
   height: auto;
 }
 
-.bolsa {
-  display: flex;
-  width: 2vw;
-  height: auto;
-}
-
-.banner {
+main .banner {
   width: 100%;
   background-image: url(../assets/img/2banner.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.h1a {
+main .h1a {
   text-align: center;
   line-height: 150px;
 }
-
-.h1faq {
+main .h1faq {
   text-align: center;
 }
-
-.faq {
+main .faq {
   padding: 10px;
 }
-
-.imgfaq {
+main .imgfaq {
   width: 300px;
 }
-
-.h2pedido {
-  text-align: center;
-}
-
-.clothes {
+main .clothes {
   width: 23.6;
   margin: 1vh;
 }
-
-.divv {
+main .divmain {
   text-align: center;
 }
 
-.divfollow {
-  margin: 10px;
+footer {
+  background-color: #808080;
 }
-
-.logomarcafooter {
+footer .logomarcafooter {
   width: 12vw;
   height: auto;
 }
-
-.redes {
+footer .redes {
   width: 40px;
   height: auto;
 }

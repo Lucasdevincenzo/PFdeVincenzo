@@ -1,0 +1,22 @@
+header{
+    .pcuotas{
+        text-align: center;
+        font-size: x-small;
+        background-color: $secondary-color;
+        color: $primary-color;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .treslineas{
+        @include nav
+    }
+    .logomarca{
+        @include logo
+    }
+    .persona{
+        @include nav
+    }
+    .bolsa{
+        @include nav
+    }
+}

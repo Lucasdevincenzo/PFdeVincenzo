@@ -1,0 +1,10 @@
+footer{
+    background-color: $secondary-color;
+    .logomarcafooter{
+        @include logo
+    }
+    .redes{
+        width: 40px;
+        height: auto;
+    }
+}

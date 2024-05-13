@@ -1,0 +1,12 @@
+@mixin nav{
+    display: flex;
+    width: 2vw;
+    height: auto;
+}
+@mixin center{
+    text-align: center;
+}
+@mixin logo{
+    width: 12vw;
+    height: auto;
+}
